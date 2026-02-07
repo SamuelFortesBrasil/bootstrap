@@ -4,10 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <title>Bootstrap</title>
+    <title>Bootstrap Formularios</title>
 </head>
 <body>
-    
+    <div class="container p-5">
+        <form action="">
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" id="email" name="email" class="form-control">
+                <div class="form-text">Nunca compartilharemos seu email</div>
+            </div>
+            <div class="mb-3">
+                <label for="senha" class="form-label">Senha</label>
+                <input type="password" id="senha" name="senha" class="form-control">
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" id="lembrar" class="form-check-input">
+                <label for="lembrar" class="form-check-label">Lembrar de Mim</label>
+            </div>
+            <button type="submit" class="btn btn-secondary">Entrar</button>
+        </form>
+    </div>
 
     <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
