@@ -7,7 +7,59 @@
     <title>Bootstrap Formularios</title>
 </head>
 <body>
-
+        <div class="container p-5">
+            <form action="" method="post" class="needs-validation" novalidate>
+        <div class="row mb-3">
+            <div class="col">
+                <input type="text" class="form-control" placeholder="campo 1">
+            </div>
+            <div class="col">
+                <input type="text" class="form-control" placeholder="campo 2">
+            </div>
+        </div>
+        <hr>
+        <div class="row mb-3">
+            <label for="email" class="col-form-label col-2">Email</label>
+            <div class="col-10"><input type="email" id="email" class="form-control"></div>
+        </div>
+        <hr>
+            <div class="row mb-3 g-3">
+                <div class="col-7">
+                    <label for="logradouro" class="form-label">logradouro</label>
+                    <input type="text" class="form-control" id="logradouro">
+                </div>
+                <div class="col-2">
+                    <label for="numero" class="form-label">número</label>
+                    <input type="text" class="form-control" id="numero">
+                </div>
+               <div class="col-3">
+                    <label for="complemento" class="form-label">complemento</label>
+                    <input type="text" class="form-control" id="complemento">
+                </div>
+                <div class="col-6">
+                    <label for="bairro" class="form-label">Bairro</label>
+                    <input type="text" class="form-control" id="bairro">
+                </div>
+               <div class="col-6">
+                    <label for="cidade" class="form-label">Cidade</label>
+                    <input type="text" class="form-control" id="cidade">
+                </div>
+                <div class="col-6">
+                    <label for="estado" class="form-label">Estado</label>
+                    <input type="text" class="form-control" id="estado">
+                </div>
+               <div class="col-2">
+                    <label for="cep" class="form-label">Cep</label>
+                    <input type="text" class="form-control" id="cep">
+                </div>
+            </div>
+            <div class="col-12 p-1">
+                <input type="checkbox" name="" id="check" class="form-check-input">
+                <label for="check" class="form-check-label">Concordo com os termos e condições</label>
+            </div>
+            <button class="btn btn-warning">Cadastrar</button>
+        </form>
+    </div>
     <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 </html>
